@@ -1,6 +1,8 @@
 # C5-Get-Langs
 Get all langs - link, text, local, icon
 
+## A Simple Example
+```php
 $locales = Site::getSite()->getLocales();
 
 foreach($locales as $locale){
@@ -21,3 +23,4 @@ foreach($locales as $locale){
   // Home link
   $homeLink = $home->getCollectionLink();
 }
+```
