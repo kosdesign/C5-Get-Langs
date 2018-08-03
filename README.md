@@ -20,7 +20,7 @@ foreach($locales as $locale){
   $langCode = $locale->getLanguage();
   // Local code => en_GB
   $localCode = $locale->getLocale();
-  // Home link
+  // Home link each lang
   $homeLink = $home->getCollectionLink();
 }
 ```
